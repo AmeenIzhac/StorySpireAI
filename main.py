@@ -1,12 +1,10 @@
 import asyncio
 import streamlit as st
-import pandas as pd
-import numpy as np
 import threading
+from nemoguardrails import LLMRails, RailsConfig
 
 st.title('Storyspire AI')
 
-from nemoguardrails import LLMRails, RailsConfig
 
 config = RailsConfig.from_path("./config")
 
