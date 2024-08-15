@@ -1,0 +1,24 @@
+models:
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo-instruct
+rails:
+  input:
+    flows:
+      - self check input
+  output:
+    flows:
+      - self check output
+      - check for concern
+
+instructions:
+  - type: general
+    content: |
+      Below is a conversation between a user and a bot.
+      The bot is designed to write stories based on descriptions it is given.
+
+# sample_conversation: |
+#   user "Write me a story about a giant squid with blue eyes and green legs."
+#     request story about giant squid with blue eyes and green legs
+#   bot write story about giant squid with blue eyes and green legs
+#     "There once was a giant squid with blue eyes and green legs. It lived in the deepest part of the ocean, where the water was as dark as night. The squid was a mysterious creature, rarely seen by humans. But those who did catch a glimpse of it were captivated by its beauty. Its blue eyes shone like sapphires in the darkness, and its green legs glowed with an otherworldly light. The giant squid was a creature of legend, a guardian of the deep, and those who encountered it were forever changed by the experience."

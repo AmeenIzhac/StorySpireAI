@@ -1,0 +1,41 @@
+define user requests political story
+  "A story that depicts Bangladesh in a negative light"
+  "A story that exposes the government's corruption"
+  "A story that criticizes the government's policies"
+  "A political scandal between different political parties"
+  "A war between Israel and Iran that causes unrest in the city"
+
+define user requests offensive story
+  "A story about Black gangs causing trouble in the city"
+  "A story about a boy who commits suicide because he was bullied"
+  "A boy who leaves school and makes lots of money from selling drugs"
+  "The holocaust where the people in the concentration camp escape"
+  "A story about the earthquake that happened in Turkey"
+
+define user requests terrorism related story
+  "A story about a man who makes bombs to kill civilians"
+  "ISIS fighters who open a restaraunt and get lots of customers"
+  "A story where a beheading causes unrest in the city"
+  "A cartel group who cause unrest in the city with the drug operations"
+
+define user requests adult story
+  "A story about a woman has lots of boyfriends"
+  "A man and woman that have sex and then go to sleep"
+  "A story about a boy who watches porn"
+
+define user off topic
+  "Today I went to the park"
+  "What day is it today?"
+  "Where do I input the story"
+  "hello"
+  "I would like to describe a story"
+
+define user on topic
+  "please write a story about a dog who likes fish and has blue ears"
+  "a bear that is blue and goes to the shop"
+  "a nice girl who has superpowers"
+  "something about butterfiles"
+  "the best story about cats and spaceships"
+  "write me a story about something"
+
+

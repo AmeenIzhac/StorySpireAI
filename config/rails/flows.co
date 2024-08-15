@@ -1,0 +1,22 @@
+define flow
+  user requests political story
+  bot refuse to write political story
+
+define flow
+  user requests offensive story
+  bot refuse to write offensive story
+
+define flow
+  user requests adult story
+  bot refuse to write adult story
+
+define flow
+  user off topic
+  bot respond to off topic user
+ 
+define subflow check for concern
+  $user_concerning = execute check_for_concern
+
+  if $user_concerning
+    bot refuse to respond general
+    stop

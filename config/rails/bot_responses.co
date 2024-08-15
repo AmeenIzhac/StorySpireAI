@@ -1,0 +1,17 @@
+define bot refuse to write political story
+  "I'm sorry, I'm unable to write stories that may be politically controversial."
+
+define bot refuse to write offensive story
+  "I'm sorry, I cannot write stories that may be of offense to people."
+
+define bot refuse to write adult story
+  "I'm sorry, I'm unable to write stories that contain adult content."
+
+define bot respond to off topic user
+  "I'm sorry, please use this space to describe the story you'd like mee to write."
+
+define bot refuse to respond general
+  "I'm sorry, I'm unable to respond to that comment."
+
+define bot respond to on topic user
+  "Once upon a time, dw."
